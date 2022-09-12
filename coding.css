@@ -1,0 +1,153 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(9, 4, 57);
+}
+
+img {
+    border-radius: 50%;
+    float: right;
+    margin-right: 300px;
+}
+
+.contact-buttons {
+    /* display: flex; */
+	justify-content: center;
+	align-items: center;
+}
+
+.logos {
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+
+.github {
+
+}
+
+.github:hover {
+
+}
+
+.linkedin {
+
+}
+
+.linkedin:hover {
+
+}
+
+.mail {
+
+}
+
+.mail:hover {
+
+}
+
+h2 {
+    margin-left: 100px;
+    color: rgb(79, 162, 114);
+}
+
+a {
+    color: rgb(155, 86, 33);
+    text-decoration: none;
+}
+
+a:after {
+    color: rgb(117, 65, 25);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(241, 199, 167);
+}
+
+.about {
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.pagetitle {
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(208, 67, 50);
+}
+
+.regulartext {
+    color: rgb(182, 135, 165);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.germinate {
+    overflow: hidden;
+    padding: 5px 5px 5px 5px;
+    border-radius:10px;
+    border-color:rgb(241, 199, 167);
+    max-height: 50px; 
+    width: auto; 
+    margin: 5px 1% 5px 1%; 
+    float: left; 
+    position: relative;  
+    text-align: center;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.germinate:hover {
+    max-height: 10000;
+}
+
+.pagetitle h1 {
+    width: auto;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 4.0s forwards,
+      blink-caret .75s step-end infinite;
+      display: inline-block;
+}
+@keyframes typing {
+    from {max-width: 0}
+    to {max-width: 100%}
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+.button-menu ul {
+    align-self: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    /* background-color: black; */
+  }
+  
+  .button-menu li {
+    float: right;
+    /* border-right: 1px solid #bbb; */
+  }
+  
+  .button-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .button-menu li a:hover {
+    background-color: rgb(40, 40, 41);
+    color: rgb(241, 199, 167);
+    transition-duration: 0.4s;
+  }
