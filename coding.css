@@ -11,21 +11,39 @@ body {
 img {
     border-radius: 50%;
     float: right;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
-.contact-buttons {
-    /* display: flex; */
-	justify-content: center;
-	align-items: center;
+#github {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#linkedin {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#mail {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#instagram {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.contact-links {
     text-align: center;
-    padding: 10px;
-}
-
-.logos {
-    /* padding-left: 50px;
-    padding-right: 50px; */
-    padding: 10px;
 }
 
 h2 {
@@ -34,8 +52,9 @@ h2 {
 }
 
 a {
-    color: rgb(155, 86, 33);
+    color: rgb(241, 199, 167);
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 a:after {
@@ -45,7 +64,7 @@ a:after {
 
 a:hover{
     text-decoration: none;
-    color: rgb(241, 199, 167);
+    color: rgb(155, 86, 33);
 }
 
 .about {
@@ -94,6 +113,26 @@ a:hover{
     width: 450px;
     max-height: 10000px;
     text-align: center;
+}
+
+#math {
+    width: 350px;
+    margin-left: 0px;
+}
+
+#band {
+    width: 350px;
+    margin-left: 0px;
+}
+
+#library {
+    width: 350px;
+    margin-right: 0px;
+}
+
+#flute {
+    width: 350px;
+    margin-right: 0px;
 }
 
 .pagetitle h1 {
