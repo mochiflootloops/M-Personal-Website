@@ -3,53 +3,34 @@ html {
 }
 
 body {
-    background-color: rgb(9, 4, 57);
+    background-color: rgb(5, 0, 50);
+    margin: 0px;
+    padding: 0px;
 }
 
 img {
     border-radius: 50%;
     float: right;
-    margin-right: 300px;
+    margin-right: 10px;
 }
 
 .contact-buttons {
     /* display: flex; */
 	justify-content: center;
 	align-items: center;
+    text-align: center;
+    padding: 10px;
 }
 
 .logos {
     /* padding-left: 50px;
     padding-right: 50px; */
-}
-
-.github {
-
-}
-
-.github:hover {
-
-}
-
-.linkedin {
-
-}
-
-.linkedin:hover {
-
-}
-
-.mail {
-
-}
-
-.mail:hover {
-
+    padding: 10px;
 }
 
 h2 {
     margin-left: 100px;
-    color: rgb(79, 162, 114);
+    color: rgb(89, 188, 130);
 }
 
 a {
@@ -79,27 +60,40 @@ a:hover{
 }
 
 .regulartext {
-    color: rgb(182, 135, 165);
-    margin-left: 100px;
-    margin-right: 100px;
+    color: rgb(211, 155, 190);
+    margin-left: 120px;
+    margin-right: 10px;
 }
 
+.stupid {
+    padding-left: -500px;
+}
 .germinate {
+    margin: 0;
+    padding: 0;
+    text-align: center;
     overflow: hidden;
     padding: 5px 5px 5px 5px;
     border-radius:10px;
     border-color:rgb(241, 199, 167);
-    max-height: 50px; 
-    width: auto; 
+    height: auto;
+    max-height: 40px; 
+    width: 450px; 
     margin: 5px 1% 5px 1%; 
-    float: left; 
+    float:left; 
     position: relative;  
     text-align: center;
-    transition: max-height 0.5s ease-in-out;
+    transition: max-height 1.5s ease-in-out;
+}
+
+.germinate > p {
+    text-align: center;
 }
 
 .germinate:hover {
-    max-height: 10000;
+    width: 450px;
+    max-height: 10000px;
+    text-align: center;
 }
 
 .pagetitle h1 {
