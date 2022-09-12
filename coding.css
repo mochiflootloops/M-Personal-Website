@@ -14,6 +14,10 @@ img {
     margin-right: 100px;
 }
 
+#word-cloud {
+    margin-right: 100px;
+}
+
 #github {
     margin-left: 10px;
     margin-top: 5px;
@@ -137,8 +141,10 @@ a:hover{
 
 .pagetitle h1 {
     width: auto;
+    margin: auto;
+    padding-left: 100px;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
+    border-right: .15em solid rgb(246, 111, 27); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .05em; /* Adjust as needed */
@@ -153,7 +159,7 @@ a:hover{
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: rgb(246, 111, 27) }
 }
 .button-menu ul {
     align-self: right;
