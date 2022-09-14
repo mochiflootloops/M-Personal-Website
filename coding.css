@@ -163,7 +163,7 @@ a:hover{
     from, to { border-color: transparent }
     50% { border-color: rgb(246, 111, 27) }
 }
-.button-menu ul {
+.button-menu ul { /* button group */
     align-self: right;
     list-style-type: none;
     margin: 0;
@@ -173,7 +173,7 @@ a:hover{
     /* background-color: black; */
   }
   
-.button-menu li {
+.button-menu li { /* each button within the group */
     float: right;
     /* border-right: 1px solid #bbb; */
 }
@@ -215,7 +215,7 @@ a:hover{
     font-style: bold;
 }
 
-.toggle {
+/* .toggle {
     position: relative;
     width: 100px;
     border-color: rgb(241, 199, 167);
@@ -266,4 +266,4 @@ input:checked ~ .slider::before {
     transform: translateX(47px);
     background-color: rgb(5, 0, 50);
     box-shadow: none;
-}
+} */

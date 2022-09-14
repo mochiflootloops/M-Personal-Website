@@ -1,5 +1,5 @@
 html {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Century Gothic", fantasy;
 }
 
 body {
@@ -15,8 +15,59 @@ img {
     /* margin-left: 500px; */
 }
 
+id {
+    visibility: hidden;
+}
+
+/* overrides for specific images */
+#word-cloud {
+    border-radius: 0%;
+    right: 1.5%;
+    margin-left: 100px;
+}
+
+#github {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#linkedin {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#mail {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#instagram {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.contact-links {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 35px;
+    align-items: center;
+    top: 30%;
+    /* bottom: 100%; */
+}
+
 h2 {
     /* margin-left: 100px; */
+    width: 94vw;
     color: rgb(54, 171, 206);
 }
 
@@ -38,19 +89,100 @@ a:hover{
 
 .about {
     /* margin-left: 100px; */
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
+    width: 85vw;
+    margin-left: auto;
+	margin-right: 1.4%;
+	overflow: hidden;
+	overflow-y: auto;
 }
 
 .pagetitle {
+    font-family: "Trattatello", fantasy;
     font-size: 20px;
+    margin-left: 150px;
     font-style: bold;
     color: rgb(255, 196, 155);
+}
+
+#name {
+    display: flex;
+}
+
+.page-wrapper {
+    width: 85vw;
+    margin-left: auto;
+	margin-right: 1.4%;
+	overflow: hidden;
+	overflow-y: auto;
 }
 
 .regulartext {
     color: rgb(27, 38, 79);
     font-size: 18px;
+	/* height: 100vh; */
     /* margin-left: 120px; */
     /* margin-right: 10px; */
+}
+
+.button-menu {
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    top: 5%;
+    /* gap: 35px; */
+    list-style-type: none;
+    overflow: hidden;
+    border: none;
+}
+
+.button-menu ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.button-menu li {
+    font-style: bold;
+    padding-left: 0px;
+    /* padding-top: 35px; */
+    text-decoration: none;
+}
+
+.button-menu li a {
+    display: block;
+    color: rgb(156, 252, 151);
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+.button-menu li a:hover {
+    background-color: rgb(145, 151, 210);
+    color: rgb(89, 188, 130);
+    transition-duration: 0.4s;
+}
+
+.simple-toggle {
+    position: fixed;
+    z-index: 2;
+    right: 2%;
+    bottom: 4%;
+    text-decoration-color: rgb(241, 199, 167);
+    font-family: "Century Gothic", fantasy;
+    font-size: 16px;
+    color: rgb(241, 199, 167);
+    background-color: rgb(5, 0, 50);
+    padding: 8px;
+    border: 4px rgb(5, 0, 50);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.simple-toggle:hover {
+    background-color: rgb(241, 199, 167);
+    color: rgb(5, 0, 50);
+    font-style: bold;
 }
