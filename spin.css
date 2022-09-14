@@ -4,6 +4,10 @@ html {
 
 body {
     background-color: rgb(167, 172, 217);
+    background-image: url("images/backgroundspin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0px;
     padding: 0px;
 }
@@ -12,6 +16,7 @@ img {
     border-radius: 50%;
     align-items: center;
     align-self: center;
+    margin-top: 30px;
     /* margin-left: 500px; */
 }
 
@@ -61,30 +66,36 @@ id {
     justify-content: left;
     padding-left: 35px;
     align-items: center;
-    top: 30%;
+    top: 40%;
     /* bottom: 100%; */
+}
+
+#high {
+    top: 43%;
 }
 
 h2 {
     /* margin-left: 100px; */
+    font-family: Charmonman;
+    /* font-size: 35px; */
     width: 94vw;
     color: rgb(54, 171, 206);
 }
 
 a {
-    color: rgb(156, 252, 151);
-    text-decoration: none;
-    transition-duration: 0.5s;
+    color: rgb(58, 64, 90);
+    text-decoration: underline;
+    transition-duration: 0.3s;
 }
 
 a::after {
-    color: rgb(89, 188, 130);
+    color: rgb(58, 64, 90);
     text-decoration: none;
 }
 
 a:hover{
     text-decoration: none;
-    color: rgb(89, 188, 130);
+    color: rgb(167, 172, 217);
 }
 
 .about {
@@ -99,15 +110,25 @@ a:hover{
 }
 
 .pagetitle {
-    font-family: "Trattatello", fantasy;
+    font-family: "Charmonman", fantasy;
+    font-style: bold;
     font-size: 20px;
     margin-left: 150px;
-    font-style: bold;
-    color: rgb(255, 196, 155);
+    font-weight: bold;
+    color: rgb(58, 64, 90);
 }
 
 #name {
-    display: flex;
+    position: absolute;
+    /* display: flex; */
+    text-align: center;
+    float: right;
+    right: 15%;
+    top: 10%;
+    font-size: 50px;
+    /* height: 10vh; */
+    /* width: 50vh; */
+    /* margin-right: 30px; */
 }
 
 .page-wrapper {
@@ -119,8 +140,9 @@ a:hover{
 }
 
 .regulartext {
-    color: rgb(27, 38, 79);
+    color: rgb(42, 46, 62);
     font-size: 18px;
+    font-style: bold;
 	/* height: 100vh; */
     /* margin-left: 120px; */
     /* margin-right: 10px; */
@@ -144,7 +166,9 @@ a:hover{
 }
 
 .button-menu li {
-    font-style: bold;
+    font-family: Charmonman;
+    font-size: 20px;
+    font-weight: bold;
     padding-left: 0px;
     /* padding-top: 35px; */
     text-decoration: none;
@@ -152,7 +176,7 @@ a:hover{
 
 .button-menu li a {
     display: block;
-    color: rgb(156, 252, 151);
+    color: rgb(58, 64, 90);
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
@@ -160,9 +184,13 @@ a:hover{
   
 /* Change the link color to #111 (black) on hover */
 .button-menu li a:hover {
-    background-color: rgb(145, 151, 210);
-    color: rgb(89, 188, 130);
+    background-color: rgb(58, 64, 90);
+    color: rgb(167, 172, 217);
     transition-duration: 0.4s;
+}
+
+#long {
+    top: 0%;
 }
 
 .simple-toggle {
@@ -171,10 +199,10 @@ a:hover{
     right: 2%;
     bottom: 4%;
     text-decoration-color: rgb(241, 199, 167);
-    font-family: "Century Gothic", fantasy;
-    font-size: 16px;
-    color: rgb(241, 199, 167);
-    background-color: rgb(5, 0, 50);
+    font-family: "Charmonman", fantasy;
+    font-size: 20px;
+    color: rgb(58, 64, 90);
+    background-color: rgba(253, 241, 254, 0);
     padding: 8px;
     border: 4px rgb(5, 0, 50);
     transition: all 0.2s ease-in-out;
@@ -182,7 +210,73 @@ a:hover{
 }
 
 .simple-toggle:hover {
-    background-color: rgb(241, 199, 167);
-    color: rgb(5, 0, 50);
+    background-color: rgb(58, 64, 90);
+    color: rgb(167, 172, 217);
     font-style: bold;
 }
+
+/* #visi {
+    background-color: #ffecff;
+} */
+
+/* .carousel {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slides-item {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 100px;
+    height: 200px;
+    justify-content: center;
+    margin: 0 1rem;
+    position: relative;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform .5s;
+    width: 30%;
+  }
+  
+  .carousel__nav {
+    padding: 1.25rem .5rem;
+  }
+  
+  .slider-nav {
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #000;
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+  }
+  
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .slide-1 {
+    background-color: #fdc;
+  }
+  
+  .slide-2 {
+    background-color: #bfd;
+  }
+  
+  .slide-3 {
+    background-color: #cdf;
+  } */

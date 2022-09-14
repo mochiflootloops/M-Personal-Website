@@ -6,11 +6,13 @@
         </title>
         <link rel="shortcut icon" href="images/favicon.ico">
         <link id = "style" rel = "stylesheet" href = "coding.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charmonman">
+        <link id = "notstyle" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src = "functions.js"></script>
     </head>
     <body>
         <nav>
-            <div class = "button-menu">
+            <div id = "long" class = "button-menu">
                 <ul>
                     <li>
                         <a href = "docs/General Resume Ghosh Mohona.pdf" target = "_blank">Resume</a>
@@ -42,48 +44,134 @@
                 <id>// </id>Experience
             </h1>
         </div>
-        <div class = "page-wrapper">
-            <h2>
-                VEX U Robotics Programming Lead
-            </h2>
-            <div class = "regulartext">
-                <p>
-                    Since Spring 2021, I've been a Programming Lead for the Women in Engineering VEX U Robotics Competition Team. You can 
-                    learn more about my robotics experience in the Projects tab. My responsibilities as a Programming Lead involve teaching 
-                    junior members basic C++ and Git version control. I also help debug over 1000 lines of source code and delegate major
-                    programming components to junior members. I and my fellow leads take over some of the more time-critical components
-                    if unexpected difficulties arise close to the competitions.
-                </p>
+        <!-- <section class = "carousel">
+            <div class = "slides">
+                <div id = "slide-1" class = "slides-item slide-1">
+                    <h2>
+                        VEX U Robotics Programming Lead
+                    </h2>
+                    <div class = "regulartext">
+                        <p>
+                            Since Spring 2021, I've been a Programming Lead for the Women in Engineering VEX U Robotics Competition Team. You can 
+                            learn more about my robotics experience in the Projects tab. My responsibilities as a Programming Lead involve teaching 
+                            junior members basic C++ and Git version control. I also help debug over 1000 lines of source code and delegate major
+                            programming components to junior members. I and my fellow leads take over some of the more time-critical components
+                            if unexpected difficulties arise close to the competitions.
+                        </p>
+                    </div>
+                </div>
+                <div id = "slide-2" class = "slides-item slide-2">
+                    <h2>
+                        Undergraduate Researcher
+                    </h2>
+                    <div class = "regulartext">
+                        <p>
+                            Since freshman year, I've been a member of the Sketch Recognition Lab under Dr. Tracy Hammond. I completed two reports
+                            on the <a href = "https://www.veoride.com/texas-am/" target = "_blank">VeoRide bikeshare system</a> at Texas A&M, which you can read more about in the Projects tab. This year, I plan to
+                            extend my VeoRide work into an undergraduate honors thesis. I plan to remain active in research throughout my education,
+                            so I'll most likely start a new project in senior year once I complete my work with the VeoRide system.
+                        </p>
+                    </div>
+                </div>
+                <div id = "slide-3" class = "slides-item slide-3">
+                    <h2>
+                        Undergraduate Teaching Assistant
+                    </h2>
+                    <div class = "regulartext">
+                        <p>
+                            In sophomore year (2021-22), I was an Undergraduate Teaching Assistant. I TA'ed for the Engineering Department's Python
+                            coding class, which is mandatory for all freshmen in the College of Engineering. I assisted a class of over 90 students by
+                            grading their weekly coding assignments and leading in-class exam reviews. I also held office hours for the Department of
+                            Computer Science, where I helped students with assignments in two CS classes: Intro to Program Design; and Data Structures
+                            and Algorithms. Both classes were taught in C++.
+                
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "carousel-nav">
+                <a class = "slider-nav" href = "#slide-1">1</a>
+                <a class = "slider-nav" href = "#slide-2">2</a>
+                <a class = "slider-nav" href = "#slide-3">3</a>
+            </div>
+        </section> -->
+        <div id = "card" class = "page-wrapper">
+            <div class = "front-card">
+                <h2>
+                    VEX U Robotics Programming Lead
+                </h2>
+            </div>
+            <div class = "back-card">
+                <div class = "regulartext">
+                    <p>
+                        Since Spring 2021, I've been a Programming Lead for the Women in Engineering VEX U Robotics Competition Team. You can 
+                        learn more about my robotics experience in the Projects tab. My responsibilities as a Programming Lead involve teaching 
+                        junior members basic C++ and Git version control. I also help debug over 1000 lines of source code and delegate major
+                        programming components to junior members. I and my fellow leads take over some of the more time-critical components
+                        if unexpected difficulties arise close to the competitions.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class = "page-wrapper">
-            <h2>
-                Undergraduate Researcher
-            </h2>
-            <div class = "regulartext">
-                <p>
-                    Since freshman year, I've been a member of the Sketch Recognition Lab under Dr. Tracy Hammond. I completed two reports
-                    on the <a href = "https://www.veoride.com/texas-am/" target = "_blank">VeoRide bikeshare system</a> at Texas A&M, which you can read more about in the Projects tab. This year, I plan to
-                    extend my VeoRide work into an undergraduate honors thesis. I plan to remain active in research throughout my education,
-                    so I'll most likely start a new project in senior year once I complete my work with the VeoRide system.
-                </p>
+        <div id = "card" class = "page-wrapper">
+            <div class = "front-card">
+                <h2>
+                    Undergraduate Researcher
+                </h2>
+            </div>
+            <div class = "back-card">
+                <div class = "regulartext">
+                    <p>
+                        Since freshman year, I've been a member of the Sketch Recognition Lab under Dr. Tracy Hammond. I completed two reports
+                        on the <a href = "https://www.veoride.com/texas-am/" target = "_blank">VeoRide bikeshare system</a> at Texas A&M, which you can read more about in the Projects tab. This year, I plan to
+                        extend my VeoRide work into an undergraduate honors thesis. I plan to remain active in research throughout my education,
+                        so I'll most likely start a new project in senior year once I complete my work with the VeoRide system.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class = "page-wrapper">
-            <h2>
-                Undergraduate Teaching Assistant
-            </h2>
-            <div class = "regulartext">
-                <p>
-                    In sophomore year (2021-22), I was an Undergraduate Teaching Assistant. I TA'ed for the Engineering Department's Python
-                    coding class, which is mandatory for all freshmen in the College of Engineering. I assisted a class of over 90 students by
-                    grading their weekly coding assignments and leading in-class exam reviews. I also held office hours for the Department of
-                    Computer Science, where I helped students with assignments in two CS classes: Intro to Program Design; and Data Structures
-                    and Algorithms. Both classes were taught in C++.
-        
-                </p>
+        <div id = "card" class = "page-wrapper">
+            <div class = "front-card">
+                <h2>
+                    Undergraduate Teaching Assistant
+                </h2>
+            </div>
+            <div class = "back-card">
+                <div class = "regulartext">
+                    <p>
+                        In sophomore year (2021-22), I was an Undergraduate Teaching Assistant. I TA'ed for the Engineering Department's Python
+                        coding class, which is mandatory for all freshmen in the College of Engineering. I assisted a class of over 90 students by
+                        grading their weekly coding assignments and leading in-class exam reviews. I also held office hours for the Department of
+                        Computer Science, where I helped students with assignments in two CS classes: Intro to Program Design; and Data Structures
+                        and Algorithms. Both classes were taught in C++.
+            
+                    </p>
+                </div>
             </div>
         </div>
         <img id = "word-cloud" src = "images/word-cloud.png">
+        <div id = "high" class = "contact-links">
+            <!-- Make contact links as pictures/icons-->
+            <p id = "linkedin">
+                <a href = "https://www.linkedin.com/in/mohona-ghosh/">
+                    <i class = "fa fa-linkedin"></i>
+                </a>
+            </p>
+            <p id = "mail">
+                <a href = "mailto: mg62755@tamu.edu">
+                   <i class = "fa fa-envelope"></i> 
+                </a>
+            </p>
+            <p id = "instagram">
+                <a href = "https://www.instagram.com/mohona.g/">
+                    <i class = "fa fa-instagram"></i>
+                </a>
+            </p>
+            <p id = "github">
+                <a href = "https://github.com/mochiflootloops">
+                        <i class = "fa fa-github"></i>
+                </a>
+            </p>
+        </div>
     </body>
 </html>
